@@ -129,3 +129,15 @@ SELECT field1, COUNT(field1) FROM table GROUP BY field1;
 SELECT field1, COUNT(field1) FROM table GROUP BY field1
 HAVING COUNT(field) > 3;
 -- сгруппирует записи таблицы table по полю field и выведет уникальные значения field и количество повторений, где количество повторений больше 3
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': '',
+        'HOST': 'localhost',
+        'PORT': '5432'
+    }
+}
