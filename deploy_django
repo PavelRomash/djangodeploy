@@ -113,3 +113,8 @@ sudo supervisorctl update
 sudo supervisorctl status project
 sudo supervisorctl restart project
 --------------------
+
+Выгрузка
+
+python manage.py dumpdata {} --indent=2
+---------------------------------------
