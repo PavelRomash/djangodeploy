@@ -120,3 +120,5 @@ python manage.py dumpdata {} --indent=2
 python manage.py loaddata {}.json
 python manage.py dumpdata --help
 ---------------------------------------
+
+python manage.py sqlmigrate
