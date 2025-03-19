@@ -122,3 +122,16 @@ python manage.py dumpdata --help
 ---------------------------------------
 
 python manage.py sqlmigrate
+-----------------------------
+
+смена пароля centos
+
+enforcing=0 init=/bin/bash
+mount -o remount,rw /
+passwd root
+sync
+exec /sbin/init
+
+vi /etc/selinux/config
+SELINUX=disabled
+---------------
